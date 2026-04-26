@@ -200,7 +200,7 @@ def recommend_crop(temp, moisture, weather):
 
 # ------------------ WEATHER API ------------------ #
 
-WEATHER_API = "80b939cfa272396308802b1e2b11cd34"
+WEATHER_API = os.environ.get("WEATHER_API")
 
 
 def get_weather(city):
@@ -223,7 +223,7 @@ def get_weather(city):
 
 # ------------------ MARKET PRICE API ------------------ #
 
-PRICE_API = "579b464db66ec23bdd000001bc43ceb877b64c1b63adf4a89bab8f4f"
+PRICE_API = os.environ.get("PRICE_API")
 RESOURCE_ID = "9ef84268-d588-465a-a308-a864a43d0070"
 
 

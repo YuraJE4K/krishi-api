@@ -13,7 +13,7 @@ import requests
 import datetime
 from flask_cors import CORS
 
-API_KEY = "AIzaSyC3mUrO_UYw59__725njIw-nIqPk1tJbiA"
+API_KEY = os.environ.get("API_KEY")
 URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={API_KEY}"
 
 # ✅ chat sessions
