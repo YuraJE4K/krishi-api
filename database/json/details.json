@@ -1,0 +1,241 @@
+{
+  "wheat": {
+    "name": "Wheat",
+    "description": "Wheat is a major cereal crop grown in cool seasons, requiring well-drained loamy soil and moderate temperatures between 10 to 25°C. It is a staple food rich in carbohydrates and widely used for flour production. Adequate sunlight and timely irrigation are essential for optimal yield.Since the conditions of your farm is suitable for this particular crop to grow we suggest you to grow wheat.",
+    "crop_type": "Grain",
+    "temperature_range": [10, 25],
+    "moisture_range": [40, 60],
+    "climate": "Cool and dry",
+    "soil_type": "Loamy soil",
+    "water_needs": "Moderate",
+    "harvest_time": "4-5 months",
+    "season": "Rabi"
+  },
+
+  "rice": {
+    "name": "Rice",
+    "description": "Rice is a major food crop and staple diet for a large population. It is highly profitable in regions with sufficient water supply. Farmers grow rice because of its strong market demand and government support in many areas. It requires high water and humid conditions, but gives good returns when managed properly.",
+    "crop_type": "Grain",
+    "temperature_range": [21, 37],
+    "moisture_range": [80, 90],
+    "climate": "Hot and humid",
+    "soil_type": "Clayey soil",
+    "water_needs": "High",
+    "harvest_time": "3-6 months",
+    "season": "Kharif"
+  },
+
+  "cotton": {
+    "name": "Cotton",
+    "description": "Cotton is a major cash crop used in the textile industry. Farmers grow cotton because of its high market value and demand. It requires a warm climate and moderate rainfall. Cotton farming can be very profitable if pests are managed properly. It is widely grown in black soil regions.",
+    "crop_type": "Fiber",
+    "temperature_range": [21, 30],
+    "moisture_range": [50, 70],
+    "climate": "Warm and dry",
+    "soil_type": "Black soil",
+    "water_needs": "Moderate",
+    "harvest_time": "5-6 months"
+  },
+
+  "banana": {
+    "name": "Banana",
+    "description": "Banana is a high-yield fruit crop with continuous demand in the market. Farmers prefer banana because it gives regular income and grows well in tropical climates. It requires high water and care but provides excellent returns. It is also used in food processing industries.",
+    "crop_type": "Fruit",
+    "temperature_range": [20, 30],
+    "moisture_range": [75, 85],
+    "climate": "Tropical",
+    "soil_type": "Rich loamy soil",
+    "water_needs": "High",
+    "harvest_time": "9-12 months"
+  },
+
+  "maize": {
+    "name": "Maize",
+    "description": "Maize is a versatile crop used for food, animal feed, and industrial products. It is easy to grow and adapts well to different climates. Farmers choose maize because it grows quickly and has multiple uses, making it a flexible crop option.",
+    "crop_type": "Grain",
+    "temperature_range": [18, 27],
+    "moisture_range": [55, 75],
+    "climate": "Warm and humid",
+    "soil_type": "Well-drained soil",
+    "water_needs": "Moderate"
+  },
+
+  "onion": {
+    "name": "Onion",
+    "description": "Onion is a widely used vegetable with strong demand throughout the year. Farmers grow onion because of its high market fluctuations which can sometimes give very high profits. It requires less water and grows well in mild climates.",
+    "crop_type": "Vegetable",
+    "temperature_range": [13, 24],
+    "moisture_range": [45, 60],
+    "climate": "Mild",
+    "soil_type": "Sandy loam",
+    "water_needs": "Low",
+    "harvest_time": "3-4 months"
+  },
+
+  "mango": {
+    "name": "Mango",
+    "description": "Mango is known as the king of fruits and has huge demand in both domestic and export markets. Farmers grow mango trees for long-term income. Though it takes years to start production, it provides consistent and profitable yield over time.",
+    "crop_type": "Fruit",
+    "temperature_range": [24, 30],
+    "moisture_range": [50, 65],
+    "climate": "Warm",
+    "soil_type": "Deep loamy soil",
+    "water_needs": "Moderate",
+    "harvest_time": "4-6 years"
+  },
+
+  "sugarcane": {
+    "name": "Sugarcane",
+    "description": "Sugarcane is a high-value cash crop used for sugar production. It requires a long growing period and high water supply but gives good returns. It is preferred in areas with irrigation facilities and strong sugar industry support.",
+    "crop_type": "Cash Crop",
+    "temperature_range": [20, 35],
+    "moisture_range": [70, 85],
+    "climate": "Humid",
+    "soil_type": "Loamy soil",
+    "water_needs": "High",
+    "harvest_time": "10-16 months"
+  },
+
+  "grapes": {
+    "name": "Grapes",
+    "description": "Grapes are a high-value fruit crop used for fresh consumption and wine production. Farmers grow grapes for export and premium markets. It requires careful management but can be very profitable in dry climates.",
+    "crop_type": "Fruit",
+    "temperature_range": [15, 35],
+    "moisture_range": [30, 50],
+    "climate": "Dry and hot",
+    "soil_type": "Sandy loam",
+    "water_needs": "Low"
+  },
+
+  "pomegranate": {
+    "name": "Pomegranate",
+    "description": "Pomegranate is a drought-resistant fruit crop with strong export demand. It is suitable for dry regions and requires less water. Farmers grow it for high profit potential and long shelf life.",
+    "crop_type": "Fruit",
+    "temperature_range": [25, 35],
+    "moisture_range": [30, 50],
+    "climate": "Hot and dry",
+    "soil_type": "Well-drained soil",
+    "water_needs": "Low"
+  },
+  "orange": {
+    "name": "Orange",
+    "description": "Orange is a popular citrus fruit grown for its high nutritional value and strong market demand. Farmers prefer orange cultivation due to its profitability and export potential. It requires warm climate and well-drained soil. With proper care, orange orchards provide long-term income.",
+    "crop_type": "Fruit",
+    "temperature_range": [13, 37],
+    "moisture_range": [50, 70],
+    "climate": "Warm and dry",
+    "soil_type": "Sandy loam",
+    "water_needs": "Moderate",
+    "harvest_time": "3-4 years"
+  },
+
+  "soybean": {
+    "name": "Soybean",
+    "description": "Soybean is an important oilseed crop used for producing oil and protein-rich animal feed. Farmers grow soybean because of its high demand in food and industrial sectors. It also improves soil fertility by fixing nitrogen, making it beneficial for crop rotation.",
+    "crop_type": "Oilseed",
+    "temperature_range": [15, 32],
+    "moisture_range": [60, 75],
+    "climate": "Warm and humid",
+    "soil_type": "Well-drained loamy soil",
+    "water_needs": "Moderate",
+    "harvest_time": "3-4 months",
+    "season": "Kharif"
+  },
+
+  "sitaphal": {
+    "name": "Sitaphal (Custard Apple)",
+    "description": "Sitaphal is a hardy fruit crop that grows well in dry and semi-arid regions. It requires very little maintenance and water, making it ideal for low-resource farming. Farmers grow it for its sweet fruit and increasing market demand.",
+    "crop_type": "Fruit",
+    "temperature_range": [15, 30],
+    "moisture_range": [35, 50],
+    "climate": "Dry and warm",
+    "soil_type": "Sandy soil",
+    "water_needs": "Low",
+    "harvest_time": "3-4 years"
+  },
+
+  "gram": {
+    "name": "Gram (Chickpea)",
+    "description": "Gram is a widely grown pulse crop rich in protein. It requires less water and grows well in dry conditions. Farmers prefer gram because of its low input cost and stable demand in the market.",
+    "crop_type": "Pulse",
+    "temperature_range": [15, 25],
+    "moisture_range": [35, 55],
+    "climate": "Cool and dry",
+    "soil_type": "Sandy loam",
+    "water_needs": "Low",
+    "harvest_time": "3-4 months",
+    "season": "Rabi"
+  },
+
+  "tur": {
+    "name": "Tur (Pigeon Pea)",
+    "description": "Tur is an important pulse crop grown for its protein-rich seeds. It is drought-resistant and suitable for dry regions. Farmers grow tur because it requires low maintenance and improves soil fertility.",
+    "crop_type": "Pulse",
+    "temperature_range": [20, 30],
+    "moisture_range": [40, 55],
+    "climate": "Warm and dry",
+    "soil_type": "Well-drained soil",
+    "water_needs": "Low",
+    "harvest_time": "5-6 months"
+  },
+
+  "turmeric": {
+    "name": "Turmeric",
+    "description": "Turmeric is a high-value spice crop used in cooking and medicine. It has strong demand in both domestic and export markets. Farmers grow turmeric for its profitability, though it requires good water supply and care.",
+    "crop_type": "Spice",
+    "temperature_range": [20, 30],
+    "moisture_range": [70, 90],
+    "climate": "Warm and humid",
+    "soil_type": "Loamy soil",
+    "water_needs": "High",
+    "harvest_time": "7-9 months"
+  },
+
+  "cashew": {
+    "name": "Cashew",
+    "description": "Cashew is a profitable plantation crop grown for its nuts. It grows well in coastal and dry regions with minimal care. Farmers prefer cashew due to its export demand and long-term income potential.",
+    "crop_type": "Nut",
+    "temperature_range": [20, 30],
+    "moisture_range": [40, 60],
+    "climate": "Warm",
+    "soil_type": "Sandy soil",
+    "water_needs": "Low",
+    "harvest_time": "3-5 years"
+  },
+
+  "mosambi": {
+    "name": "Mosambi (Sweet Lime)",
+    "description": "Mosambi is a citrus fruit crop with good market demand, especially for juice production. It grows well in warm climates and provides steady income once the orchard is established.",
+    "crop_type": "Fruit",
+    "temperature_range": [20, 35],
+    "moisture_range": [50, 70],
+    "climate": "Warm and dry",
+    "soil_type": "Loamy soil",
+    "water_needs": "Moderate",
+    "harvest_time": "3-4 years"
+  },
+
+  "bajra": {
+    "name": "Bajra (Pearl Millet)",
+    "description": "Bajra is a drought-resistant cereal crop grown in dry regions. It requires very little water and survives harsh conditions. Farmers grow bajra for its reliability and nutritional value.",
+    "crop_type": "Grain",
+    "temperature_range": [25, 35],
+    "moisture_range": [40, 50],
+    "climate": "Hot and dry",
+    "soil_type": "Sandy soil",
+    "water_needs": "Low",
+    "harvest_time": "2-3 months"
+  },
+
+  "jowar": {
+    "name": "Jowar (Sorghum)",
+    "description": "Jowar is a hardy cereal crop used for food and fodder. It grows well in dry and semi-arid regions. Farmers prefer jowar because it requires low water and provides stable yield even in poor conditions.",
+    "crop_type": "Grain",
+    "temperature_range": [26, 33],
+    "moisture_range": [40, 60],
+    "climate": "Warm and dry",
+    "soil_type": "Loamy soil",
+    "water_needs": "Low",
+    "harvest_time": "3-4 months"
+  }
+}

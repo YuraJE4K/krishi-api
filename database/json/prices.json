@@ -1,0 +1,22 @@
+{
+  "wheat": { "min": 2400, "max": 2700, "modal": 2550 },
+  "onion": { "min": 800, "max": 1400, "modal": 1100 },
+  "orange": { "min": 3000, "max": 4200, "modal": 3600 },
+  "soybean": { "min": 4500, "max": 5500, "modal": 5000 },
+  "grapes": { "min": 3500, "max": 5000, "modal": 4200 },
+  "sitaphal": { "min": 5000, "max": 7000, "modal": 6000 },
+  "gram": { "min": 5000, "max": 6200, "modal": 5600 },
+  "maize": { "min": 2000, "max": 2600, "modal": 2300 },
+  "sugarcane": { "min": 300, "max": 400, "modal": 350 },
+  "banana": { "min": 1500, "max": 2200, "modal": 1800 },
+  "tur": { "min": 9000, "max": 11500, "modal": 10200 },
+  "turmeric": { "min": 8000, "max": 10000, "modal": 9000 },
+  "cashew": { "min": 70000, "max": 90000, "modal": 80000 },
+  "mosambi": { "min": 2500, "max": 3500, "modal": 3000 },
+  "cotton": { "min": 6500, "max": 8000, "modal": 7200 },
+  "rice": { "min": 3000, "max": 4200, "modal": 3500 },
+  "mango": { "min": 6000, "max": 9000, "modal": 7500 },
+  "pomegranate": { "min": 4000, "max": 6000, "modal": 5000 },
+  "bajra": { "min": 2200, "max": 3000, "modal": 2600 },
+  "jowar": { "min": 2400, "max": 3200, "modal": 2800 }
+}

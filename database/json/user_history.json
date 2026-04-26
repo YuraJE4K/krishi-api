@@ -1,0 +1,515 @@
+{
+  "1": {
+    "searches": [
+      {
+        "type": "price",
+        "crop": "wheat",
+        "output": {
+          "min": 2400,
+          "max": 2700,
+          "modal": 2550
+        },
+        "time": "2026-04-25 14:00:35.393722"
+      },
+      {
+        "type": "details",
+        "input": {
+          "crop": "tur"
+        },
+        "output": {
+          "name": "Tur (Pigeon Pea)",
+          "description": "Tur is an important pulse crop grown for its protein-rich seeds. It is drought-resistant and suitable for dry regions. Farmers grow tur because it requires low maintenance and improves soil fertility.",
+          "crop_type": "Pulse",
+          "temperature_range": [
+            20,
+            30
+          ],
+          "moisture_range": [
+            40,
+            55
+          ],
+          "climate": "Warm and dry",
+          "soil_type": "Well-drained soil",
+          "water_needs": "Low",
+          "harvest_time": "5-6 months"
+        },
+        "time": "2026-04-25 14:01:08.928628"
+      },
+      {
+        "type": "forecast",
+        "input": {
+          "city": "Mumbai",
+          "days": 4
+        },
+        "output": {
+          "temp": 28.99,
+          "humidity": 72,
+          "weather": "Clear"
+        },
+        "time": "2026-04-25 14:01:35.997785"
+      },
+      {
+        "type": "forecast",
+        "input": {
+          "city": "california",
+          "days": 2
+        },
+        "output": {
+          "temp": 4.76,
+          "humidity": 95,
+          "weather": "Clear"
+        },
+        "time": "2026-04-25 14:19:33.165546"
+      },
+      {
+        "type": "weather",
+        "input": {
+          "city": "shimla"
+        },
+        "output": {
+          "temp": 28.39,
+          "humidity": 35,
+          "weather": "Haze"
+        },
+        "time": "2026-04-25 14:20:01.248957"
+      }
+    ],
+    "chat": [
+      {
+        "user": "Should i plant Grapes in Nashik at current time?",
+        "bot": "*   Wait a few weeks; the peak heat of May can stress young saplings.\n*   Target the start of the monsoon (June or July) for the best survival rate.\n*   Use this time to dig your pits and mix in well-rotted cow manure or compost.\n*   Ensure your drainage and trellis systems are fully prepared before the rains hit.\n*   Source healthy, disease-free grafts from a certified nursery now for early monsoon planting.",
+        "time": "2026-04-17 20:55:07.975641"
+      },
+      {
+        "user": "hi",
+        "bot": "*   Howdy, friend.\n*   Ready to help with your fields and livestock.\n*   Ask me about:\n    *   Soil health and fertilizers.\n    *   Crop rotation and planting cycles.\n    *   Pest and disease management.\n    *   Irrigation and equipment maintenance.",
+        "time": "2026-04-25 13:16:51.772851"
+      },
+      {
+        "user": "hi",
+        "bot": "* Howdy! Ready to get to work.\n* Ask me anything about crops, soil, or livestock.\n* I'm here for your farming needs.",
+        "time": "2026-04-25 14:06:56.534315"
+      },
+      {
+        "user": "who won ipl",
+        "bot": "* I don't follow the cricket games, friend.\n* I only keep track of crops, soil, and livestock.\n* Ask me something about your farm or garden instead.",
+        "time": "2026-04-25 14:07:21.250646"
+      },
+      {
+        "user": "why orange only grows in nagpur",
+        "bot": "* Oranges grow best in Nagpur due to the deep, well-drained black soil (Regur soil).\n* The region's unique sub-tropical climate provides the perfect heat for sugar development.\n* Distinct dry and wet seasons allow for two specific harvest cycles (Ambia and Mrig bahar).\n* The high temperature during fruit maturation gives the \"Nagpur Mandarin\" its famous flavor and thin skin.\n* While they grow in other places, these specific conditions make Nagpur the ideal \"Orange City.\"",
+        "time": "2026-04-25 14:08:00.255739"
+      },
+      {
+        "user": "Nashik me grapes lagana chahiye kya abhi?",
+        "bot": "* Haan, Nashik mein October-November ka mahina angur lagane ke liye sabse behtar hai.\n* Thanda mausam nayi belon (saplings) ki growth aur jadon ke vikas ke liye anukul hota hai.\n* Ache jal-nikaas (drainage) wali matti ka chayan karein taaki fungus na lage.\n* Agar purani kheti hai, toh abhi 'fruiting pruning' (chhantai) ka sahi waqt hai.\n* Export quality ke liye Thompson Seedless ya uski anya varieties lagana faydemand rahega.",
+        "time": "2026-04-25 14:10:26.248701"
+      },
+      {
+        "user": "Crop suitable for the.",
+        "bot": "* **Winter (Rabi Season):** Wheat, Mustard, Chickpeas (Gram), and Peas are best to sow now.\n* **Black Soil (Regur):** Ideal for Cotton, Soybeans, and Sugarcane.\n* **Sandy/Loamy Soil:** Best for vegetables like Potatoes, Carrots, Onions, and Chilies.\n* **Arid/Dry Regions:** Millets like Jowar and Bajra require very little water.\n* **Heavy Rainfall Areas:** Rice (Paddy) and Jute are the most suitable.\n* Please specify your **soil type** or **location** for a more accurate recommendation.",
+        "time": "2026-04-25 14:14:16.024966"
+      },
+      {
+        "user": "Crops suitable for the summer.",
+        "bot": "* **Watermelon & Muskmelon:** These thrive in high heat and have high market demand during summer.\n* **Moong Dal (Green Gram):** A short-duration crop (60-70 days) that improves soil fertility by fixing nitrogen.\n* **Cucumber & Gourds:** Fast-growing vegetables like bottle gourd and bitter gourd handle summer temperatures well.\n* **Okra (Bhindi):** Highly heat-tolerant and provides a steady yield throughout the season.\n* **Maize (Corn):** Can be grown for both grain and green fodder for cattle.\n* **Sunflower:** An excellent oilseed option that is resistant to high heat and drought.\n* **Leafy Greens:** Amaranth (Chauli) and Spinach can be grown under shade nets or with frequent irrigation.\n* **Note:** Ensure a reliable water source as evaporation rates are very high during these months.",
+        "time": "2026-04-25 14:14:24.970160"
+      },
+      {
+        "user": "Crops suitable for the summer in bhusawal",
+        "bot": "* **Banana (Kela):** Bhusawal is famous for bananas; summer heat is manageable if you have a strong irrigation system (Drip irrigation is a must).\n* **Summer Groundnut (Bhuimug):** This is a popular choice in the Khandesh region as it grows well in the local black soil.\n* **Watermelon & Muskmelon:** Very profitable if your farm is near the Tapi river beds or has sandy-loamy soil.\n* **Maize (Makka):** Used widely for green fodder for livestock during the dry summer months.\n* **Green Gram (Moong):** A quick 60-day crop that improves soil health before the monsoon sowing.\n* **Vegetables:** Okra (Bhindi), Cluster Beans (Guar), and Chillies are highly heat-tolerant and have a steady local market.\n* **Note:** Bhusawal temperatures can exceed 45\u00b0C; ensure mulching to save soil moisture and provide irrigation during early morning or late evening.",
+        "time": "2026-04-25 14:16:46.651522"
+      },
+      {
+        "user": "banana ke kheti me pesticides, insectisides, and water management",
+        "bot": "* **Water Management (Drip Irrigation):** Essential for Bhusawal's heat. Provide 15\u201320 liters per plant daily in summer. Use drip to prevent waterlogging and root rot.\n* **Mulching:** Cover the soil with dried leaves or plastic mulch to reduce evaporation and keep the root zone cool.\n* **Stem/Rhizome Weevil:** Use Beauveria bassiana or inject the stem with a diluted Chlorpyrifos solution if holes appear.\n* **Aphids:** These spread 'Bunchy Top' disease. Spray Dimethoate or soap solution to control them.\n* **Sigatoka (Leaf Spot):** Spray Carbendazim or Mancozeb. Remove and burn infected leaves immediately to stop the spread.\n* **Panama Wilt:** Apply *Trichoderma viride* with organic manure to the soil. Avoid water stagnation around the trunk.\n* **Thrips:** Use blue sticky traps and spray Imidacloprid to prevent fruit skin scarring.\n* **Tip:** Always use healthy, virus-free tissue culture plants to reduce the need for heavy chemical use.",
+        "time": "2026-04-25 14:27:04.569613"
+      }
+    ]
+  },
+  "guest": {
+    "searches": [
+      {
+        "type": "weather",
+        "input": {
+          "city": "sambhaji nagar"
+        },
+        "output": {
+          "error": "City not found"
+        },
+        "time": "2026-04-25 16:59:18.002105"
+      },
+      {
+        "type": "weather",
+        "input": {
+          "city": "nashik"
+        },
+        "output": {
+          "temp": 39.92,
+          "humidity": 12,
+          "weather": "Clear"
+        },
+        "time": "2026-04-25 16:59:26.126356"
+      },
+      {
+        "type": "weather",
+        "input": {
+          "city": "Pune"
+        },
+        "output": {
+          "temp": 37.96,
+          "humidity": 23,
+          "weather": "Clouds"
+        },
+        "time": "2026-04-25 16:59:53.891524"
+      },
+      {
+        "type": "weather",
+        "input": {
+          "city": "Nashik"
+        },
+        "output": {
+          "temp": 39.92,
+          "humidity": 12,
+          "weather": "Clear"
+        },
+        "time": "2026-04-25 17:01:10.097274"
+      },
+      {
+        "type": "weather",
+        "input": {
+          "city": "Mumbai"
+        },
+        "output": {
+          "temp": 32.99,
+          "humidity": 62,
+          "weather": "Haze"
+        },
+        "time": "2026-04-26 13:59:12.942930"
+      }
+    ]
+  },
+  "4": {
+    "searches": [
+      {
+        "type": "crop",
+        "input": {
+          "temp": 34.12,
+          "humidity": 15.0,
+          "weather": "Clouds",
+          "city": "nashik"
+        },
+        "output": [
+          [
+            "grapes",
+            5
+          ],
+          [
+            "bajra",
+            5
+          ],
+          [
+            "orange",
+            4
+          ]
+        ],
+        "time": "2026-04-18 10:35:49.338135"
+      },
+      {
+        "type": "crop",
+        "input": {
+          "temp": 37.95,
+          "humidity": 11.0,
+          "weather": "Clouds",
+          "city": "khamgaon"
+        },
+        "output": [
+          [
+            "grapes",
+            3
+          ],
+          [
+            "bajra",
+            3
+          ]
+        ],
+        "time": "2026-04-18 10:36:15.888613"
+      },
+      {
+        "type": "price",
+        "crop": "bajra",
+        "output": {
+          "min": 2200,
+          "max": 3000,
+          "modal": 2600
+        },
+        "time": "2026-04-18 10:36:21.262837"
+      },
+      {
+        "type": "price",
+        "crop": "wheat",
+        "output": {
+          "min": 2400,
+          "max": 2700,
+          "modal": 2550
+        },
+        "time": "2026-04-18 10:37:14.980189"
+      },
+      {
+        "type": "crop",
+        "input": {
+          "temp": 37.95,
+          "humidity": 11.0,
+          "weather": "Clouds",
+          "city": "khamgaon"
+        },
+        "output": [
+          [
+            "grapes",
+            3
+          ],
+          [
+            "bajra",
+            3
+          ]
+        ],
+        "time": "2026-04-18 10:41:56.113795"
+      }
+    ],
+    "chat": [
+      {
+        "user": "hii",
+        "bot": "* Hello there, neighbor.\n* I'm ready to help with your crops, soil, or livestock.\n* What's on your mind for the farm today?",
+        "time": "2026-04-18 10:37:53.265973"
+      },
+      {
+        "user": "can you talk in hindi",
+        "bot": "* \u0939\u093e\u0901, \u092e\u0948\u0902 \u0939\u093f\u0902\u0926\u0940 \u092e\u0947\u0902 \u092c\u093e\u0924 \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0942\u0901\u0964\n* \u0916\u0947\u0924\u0940-\u092c\u093e\u0921\u093c\u0940, \u092b\u0938\u0932 \u092f\u093e \u092e\u093f\u091f\u094d\u091f\u0940 \u0938\u0947 \u091c\u0941\u0921\u093c\u093e \u0905\u092a\u0928\u093e \u0938\u0935\u093e\u0932 \u092a\u0942\u091b\u0947\u0902\u0964\n* \u0906\u091c \u092e\u0948\u0902 \u0906\u092a\u0915\u0947 \u0916\u0947\u0924 \u0915\u0947 \u0932\u093f\u090f \u0915\u094d\u092f\u093e \u092e\u0926\u0926 \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0942\u0901?",
+        "time": "2026-04-18 10:38:25.735816"
+      },
+      {
+        "user": "mera khet khamgaon me hai, to muze bato udhr konsa crop suitable rahega, as compaed to temp. and etc. facts",
+        "bot": "\u0916\u093e\u092e\u0917\u093e\u0901\u0935 (\u092c\u0941\u0932\u0922\u093e\u0923\u093e) \u0915\u0940 \u091c\u0932\u0935\u093e\u092f\u0941 \u0914\u0930 \u0915\u093e\u0932\u0940 \u092e\u093f\u091f\u094d\u091f\u0940 \u0915\u094b \u0926\u0947\u0916\u0924\u0947 \u0939\u0941\u090f \u0906\u092a\u0915\u0947 \u0932\u093f\u090f \u092f\u0947 \u092b\u0938\u0932\u0947\u0902 \u0938\u092c\u0938\u0947 \u0909\u092a\u092f\u0941\u0915\u094d\u0924 \u0939\u0948\u0902:\n\n*   **\u0915\u092a\u093e\u0938 (Cotton):** \u092f\u0939\u093e\u0901 \u0915\u0940 \u0917\u0930\u094d\u092e \u091c\u0932\u0935\u093e\u092f\u0941 \u0914\u0930 \u0915\u093e\u0932\u0940 \u092e\u093f\u091f\u094d\u091f\u0940 \u0915\u092a\u093e\u0938 \u0915\u0947 \u0932\u093f\u090f \u0938\u092c\u0938\u0947 \u0909\u0924\u094d\u0924\u092e \u0939\u0948\u0964\n*   **\u0938\u094b\u092f\u093e\u092c\u0940\u0928 (Soybean):** \u0916\u0930\u0940\u092b \u0938\u0940\u091c\u0928 \u092e\u0947\u0902 \u092f\u0939 \u092f\u0939\u093e\u0901 \u0915\u0940 \u092e\u0941\u0916\u094d\u092f \u0928\u0915\u0926\u0940 \u092b\u0938\u0932 \u0939\u0948\u0964\n*   **\u091a\u0928\u093e (Harbhara):** \u0930\u092c\u0940 (\u0938\u0930\u094d\u0926\u093f\u092f\u094b\u0902) \u0915\u0947 \u092e\u094c\u0938\u092e \u092e\u0947\u0902 \u0915\u092e \u092a\u093e\u0928\u0940 \u092e\u0947\u0902 \u091a\u0928\u0947 \u0915\u0940 \u092b\u0938\u0932 \u092c\u0939\u0941\u0924 \u0905\u091a\u094d\u091b\u0940 \u0939\u094b\u0924\u0940 \u0939\u0948\u0964\n*   **\u0924\u0941\u0905\u0930 (Pigeon Pea):** \u0907\u0938\u0947 \u0906\u092a \u0938\u094b\u092f\u093e\u092c\u0940\u0928 \u092f\u093e \u0915\u092a\u093e\u0938 \u0915\u0947 \u0938\u093e\u0925 \u0905\u0902\u0924\u0930-\u092b\u0938\u0932 (Intercropping) \u0915\u0947 \u0930\u0942\u092a \u092e\u0947\u0902 \u0932\u0917\u093e \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964\n*   **\u092e\u0915\u094d\u0915\u093e (Maize):** \u091a\u093e\u0930\u0947 \u0914\u0930 \u0905\u0928\u093e\u091c \u0926\u094b\u0928\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u092f\u0939 \u090f\u0915 \u0905\u091a\u094d\u091b\u093e \u0935\u093f\u0915\u0932\u094d\u092a \u0939\u0948\u0964\n*   **\u0938\u0902\u0924\u0930\u093e \u0914\u0930 \u0928\u0940\u0902\u092c\u0942:** \u0905\u0917\u0930 \u0938\u093f\u0902\u091a\u093e\u0908 \u0915\u0940 \u0905\u091a\u094d\u091b\u0940 \u0938\u0941\u0935\u093f\u0927\u093e \u0939\u0948, \u0924\u094b \u0916\u091f\u094d\u091f\u0947 \u092b\u0932\u094b\u0902 \u0915\u0947 \u092c\u093e\u0917 \u092f\u0939\u093e\u0901 \u0938\u092b\u0932 \u0930\u0939\u0924\u0947 \u0939\u0948\u0902\u0964\n*   **\u092e\u093f\u091f\u094d\u091f\u0940 \u0915\u0940 \u091c\u093e\u0901\u091a:** \u092c\u0941\u0906\u0908 \u0938\u0947 \u092a\u0939\u0932\u0947 \u092e\u093f\u091f\u094d\u091f\u0940 \u0915\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u091c\u0930\u0942\u0930 \u0915\u0930\u0935\u093e\u090f\u0902 \u0924\u093e\u0915\u093f \u0916\u093e\u0926 \u0915\u093e \u0938\u0939\u0940 \u092a\u094d\u0930\u092c\u0902\u0927\u0928 \u0939\u094b \u0938\u0915\u0947\u0964",
+        "time": "2026-04-18 10:39:43.515640"
+      },
+      {
+        "user": "muze abhi summer me konse crops achhe rahenge",
+        "bot": "\u0916\u093e\u092e\u0917\u093e\u0901\u0935 \u0915\u0940 \u092d\u0940\u0937\u0923 \u0917\u0930\u094d\u092e\u0940 \u0915\u094b \u0926\u0947\u0916\u0924\u0947 \u0939\u0941\u090f, \u0917\u0930\u094d\u092e\u093f\u092f\u094b\u0902 (\u091c\u093e\u092f\u0926 \u0938\u0940\u091c\u0928) \u0915\u0947 \u0932\u093f\u090f \u092f\u0947 \u092b\u0938\u0932\u0947\u0902 \u0938\u092c\u0938\u0947 \u0905\u091a\u094d\u091b\u0940 \u0930\u0939\u0947\u0902\u0917\u0940:\n\n*   **\u092e\u0942\u0901\u0917 (Green Gram):** \u092f\u0939 \u0915\u092e \u0938\u092e\u092f (60-70 \u0926\u093f\u0928) \u092e\u0947\u0902 \u0924\u0948\u092f\u093e\u0930 \u0939\u094b\u0924\u0940 \u0939\u0948 \u0914\u0930 \u092e\u093f\u091f\u094d\u091f\u0940 \u0915\u0940 \u0909\u092a\u091c\u093e\u090a \u0936\u0915\u094d\u0924\u093f \u092c\u095d\u093e\u0924\u0940 \u0939\u0948\u0964\n*   **\u092e\u0942\u0902\u0917\u092b\u0932\u0940 (Summer Groundnut):** \u0905\u0917\u0930 \u0938\u093f\u0902\u091a\u093e\u0908 \u0915\u0940 \u0905\u091a\u094d\u091b\u0940 \u0935\u094d\u092f\u0935\u0938\u094d\u0925\u093e \u0939\u0948, \u0924\u094b \u092f\u0939 \u092c\u0939\u0941\u0924 \u0932\u093e\u092d\u0926\u093e\u092f\u0915 \u092b\u0938\u0932 \u0939\u0948\u0964\n*   **\u091a\u093e\u0930\u093e \u092b\u0938\u0932\u0947\u0902 (Fodder Crops):** \u092a\u0936\u0941\u0913\u0902 \u0915\u0947 \u0932\u093f\u090f \u092e\u0915\u094d\u0915\u093e, \u092c\u093e\u091c\u0930\u093e \u092f\u093e '\u091c\u094d\u0935\u093e\u0930' (\u0915\u0921\u093c\u0935\u093e) \u0932\u0917\u093e\u0928\u093e \u092b\u093e\u092f\u0926\u0947\u092e\u0902\u0926 \u0930\u0939\u0947\u0917\u093e\u0964\n*   **\u0938\u092c\u094d\u091c\u093f\u092f\u093e\u0901:** \u092d\u093f\u0902\u0921\u0940, \u0917\u094d\u0935\u093e\u0930, \u0915\u0930\u0947\u0932\u093e \u0914\u0930 \u0932\u094c\u0915\u0940 \u091c\u0948\u0938\u0940 \u0938\u092c\u094d\u091c\u093f\u092f\u093e\u0901 \u0917\u0930\u094d\u092e\u0940 \u092e\u0947\u0902 \u0905\u091a\u094d\u091b\u093e \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u0926\u0947\u0924\u0940 \u0939\u0948\u0902\u0964\n*   **\u0924\u0930\u092c\u0942\u091c \u0914\u0930 \u0916\u0930\u092c\u0942\u091c\u093e:** \u0905\u0917\u0930 \u0906\u092a\u0915\u0947 \u092a\u093e\u0938 \u092a\u093e\u0928\u0940 \u0915\u0940 \u0938\u0941\u0935\u093f\u0927\u093e \u0939\u0948, \u0924\u094b \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 \u0907\u0928\u0915\u0940 \u092e\u093e\u0902\u0917 \u092c\u0939\u0941\u0924 \u0930\u0939\u0924\u0940 \u0939\u0948\u0964\n*   **\u0924\u093f\u0932 (Sesame):** \u092f\u0939 \u0915\u092e \u092a\u093e\u0928\u0940 \u0914\u0930 \u0924\u0947\u091c \u0927\u0942\u092a \u0915\u094b \u0906\u0938\u093e\u0928\u0940 \u0938\u0947 \u0938\u0939\u0928 \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0948\u0964\n*   **\u091c\u0930\u0942\u0930\u0940 \u0938\u0941\u091d\u093e\u0935:** \u0917\u0930\u094d\u092e\u093f\u092f\u094b\u0902 \u092e\u0947\u0902 \u0915\u0947\u0935\u0932 \u0935\u0939\u0940 \u092b\u0938\u0932 \u091a\u0941\u0928\u0947\u0902 \u091c\u093f\u0938\u0915\u0947 \u0932\u093f\u090f \u0906\u092a\u0915\u0947 \u092a\u093e\u0938 \u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0938\u093f\u0902\u091a\u093e\u0908 (Irrigation) \u0915\u0940 \u0935\u094d\u092f\u0935\u0938\u094d\u0925\u093e \u0939\u094b\u0964",
+        "time": "2026-04-18 10:40:52.652487"
+      }
+    ]
+  },
+  "5": {
+    "searches": [
+      {
+        "type": "crop",
+        "input": {
+          "temp": 34.71,
+          "humidity": 17.0,
+          "weather": "Clear",
+          "city": "Nashik"
+        },
+        "output": [
+          [
+            "grapes",
+            5
+          ],
+          [
+            "bajra",
+            5
+          ],
+          [
+            "orange",
+            4
+          ]
+        ],
+        "time": "2026-04-25 09:39:14.091173"
+      },
+      {
+        "type": "price",
+        "crop": "wheat",
+        "output": {
+          "min": 2400,
+          "max": 2700,
+          "modal": 2550
+        },
+        "time": "2026-04-25 09:39:35.927631"
+      },
+      {
+        "type": "details",
+        "input": {
+          "crop": "tur"
+        },
+        "output": {
+          "name": "Tur (Pigeon Pea)",
+          "description": "Tur is an important pulse crop grown for its protein-rich seeds. It is drought-resistant and suitable for dry regions. Farmers grow tur because it requires low maintenance and improves soil fertility.",
+          "crop_type": "Pulse",
+          "temperature_range": [
+            20,
+            30
+          ],
+          "moisture_range": [
+            40,
+            55
+          ],
+          "climate": "Warm and dry",
+          "soil_type": "Well-drained soil",
+          "water_needs": "Low",
+          "harvest_time": "5-6 months"
+        },
+        "time": "2026-04-25 09:39:55.286181"
+      },
+      {
+        "type": "forecast",
+        "input": {
+          "city": "Mumbai",
+          "days": 4
+        },
+        "output": {
+          "temp": 28.55,
+          "humidity": 72,
+          "weather": "Clear"
+        },
+        "time": "2026-04-25 09:40:57.887975"
+      },
+      {
+        "type": "forecast",
+        "input": {
+          "city": "Mumbai",
+          "days": 4
+        },
+        "output": {
+          "temp": 28.55,
+          "humidity": 72,
+          "weather": "Clear"
+        },
+        "time": "2026-04-25 09:41:00.917815"
+      }
+    ],
+    "chat": [
+      {
+        "user": "hi",
+        "bot": "* Howdy, neighbor.\n* Ready to help with your crops, livestock, or soil.\n* What agriculture questions do you have for me today?",
+        "time": "2026-04-25 09:45:07.496759"
+      },
+      {
+        "user": "aadhunik paddatine kheti kashe karayiche",
+        "bot": "* \u092e\u093e\u0924\u0940\u091a\u0947 \u092a\u0930\u0940\u0915\u094d\u0937\u0923 (Soil Testing) \u0915\u0930\u0942\u0928 \u091c\u092e\u093f\u0928\u0940\u091a\u093e \u0926\u0930\u094d\u091c\u093e \u0924\u092a\u093e\u0938\u093e.\n* \u0920\u093f\u092c\u0915 \u0915\u093f\u0902\u0935\u093e \u0924\u0941\u0937\u093e\u0930 \u0938\u093f\u0902\u091a\u0928\u093e\u091a\u093e (Drip/Sprinkler Irrigation) \u0935\u093e\u092a\u0930 \u0915\u0930\u0942\u0928 \u092a\u093e\u0923\u094d\u092f\u093e\u091a\u0940 \u092c\u091a\u0924 \u0915\u0930\u093e.\n* \u0938\u0941\u0927\u093e\u0930\u093f\u0924 \u0906\u0923\u093f \u0938\u0902\u0915\u0930\u093f\u0924 (Hybrid) \u092c\u093f\u092f\u093e\u0923\u094d\u092f\u093e\u0902\u091a\u0940 \u0928\u093f\u0935\u0921 \u0915\u0930\u093e.\n* \u0938\u0947\u0902\u0926\u094d\u0930\u093f\u092f \u0906\u0923\u093f \u0930\u093e\u0938\u093e\u092f\u0928\u093f\u0915 \u0916\u0924\u093e\u0902\u091a\u093e \u0938\u0902\u0924\u0941\u0932\u093f\u0924 \u0935\u093e\u092a\u0930 \u0915\u0930\u093e.\n* \u092a\u0940\u0915 \u092b\u0947\u0930\u092a\u093e\u0932\u091f (Crop Rotation) \u092a\u0926\u094d\u0927\u0924 \u0905\u0935\u0932\u0902\u092c\u093e.\n* \u0906\u0927\u0941\u0928\u093f\u0915 \u092f\u0902\u0924\u094d\u0930\u0938\u093e\u092e\u0917\u094d\u0930\u0940 (\u0909\u0926\u093e. \u091f\u094d\u0930\u0945\u0915\u094d\u091f\u0930, \u092a\u0949\u0935\u0930 \u091f\u093f\u0932\u0930) \u0935\u093e\u092a\u0930\u0942\u0928 \u0936\u094d\u0930\u092e \u0915\u092e\u0940 \u0915\u0930\u093e.\n* \u092c\u093e\u091c\u093e\u0930\u092a\u0947\u0920\u0947\u091a\u093e \u0905\u092d\u094d\u092f\u093e\u0938 \u0915\u0930\u0942\u0928 \u092e\u093e\u0917\u0923\u0940\u0928\u0941\u0938\u093e\u0930 \u092a\u093f\u0915\u093e\u0902\u091a\u0947 \u0928\u093f\u092f\u094b\u091c\u0928 \u0915\u0930\u093e.",
+        "time": "2026-04-25 09:46:26.550092"
+      }
+    ]
+  },
+  "6": {
+    "searches": [],
+    "chat": [
+      {
+        "user": "What are the insecticides, pesticides and water requirements for banana in bhusawal?",
+        "bot": "As a farmer in the Bhusawal region, here are the essential requirements for your banana crop:\n\n**Water Requirements**\n*   **Method:** Use drip irrigation to handle the high temperatures of Jalgaon/Bhusawal.\n*   **Summer:** 15\u201320 liters per plant daily.\n*   **Winter:** 8\u201310 liters per plant every 2\u20133 days.\n*   **Monsoon:** Irrigate only during dry spells; ensure excellent drainage to prevent root rot.\n\n**Pest Management (Insecticides)**\n*   **Aphids (Bunchy Top vector):** Spray Imidacloprid (0.5 ml/liter) or Dimethoate (2 ml/liter).\n*   **Rhizome Weevil:** Apply 20g of Carbofuran 3G granules around the base of the plant.\n*   **Thrips (Fruit scarring):** Spray Chlorpyrifos (2 ml/liter) on the emerging inflorescence.\n\n**Disease Management (Fungicides/Pesticides)**\n*   **Sigatoka Leaf Spot:** Spray Propiconazole (1 ml/liter) or Carbendazim (1g/liter) mixed with a sticking agent.\n*   **Panama Wilt (Fusarium):** Drench the soil with Carbendazim (2g/liter) or apply *Trichoderma viride* with organic manure.\n*   **Cigar End Rot:** Spray Copper Oxychloride (3g/liter) directly on the fruit bunches.\n\n**General Tips**\n*   **Mulching:** Use dry leaves or plastic mulch to retain moisture in the hot Bhusawal sun.\n*   **Fertigation:** Apply NPK fertilizers through the drip system for better nutrient uptake.",
+        "time": "2026-04-25 14:29:52.108197"
+      },
+      {
+        "user": "1 acre me kitna bhuimung lagaye",
+        "bot": "Ek acre bhuimung (groundnut) ki kheti ke liye zaroori jankari:\n\n**Beej ki Matra (Seed Rate)**\n*   **Ubha (Bunch type):** 40\u201345 kg saaf daane prati acre.\n*   **Pasarnara (Spreading type):** 30\u201335 kg saaf daane prati acre.\n\n**Bouni ka Antar (Spacing)**\n*   **Ubha:** 30 cm (katar) x 10 cm (paudha).\n*   **Pasarnara:** 45 cm (katar) x 15 cm (paudha).\n\n**Beej Upchar (Seed Treatment)**\n*   **Fungicide:** 2 gram Carbendazim ya 5 gram Trichoderma prati kg beej ke liye.\n*   **Rhizobium:** 250 gram Rhizobium culture 10 kg beej ke liye istemal karein.\n\n**Khaad (Fertilizer)**\n*   8\u201310 gaadi acchi sadi hui gobar ki khaad.\n*   Sowing ke waqt 80 kg Single Super Phosphate (SSP) aur 20 kg Urea dein.\n*   **Gypsum:** 200 kg prati acre (phool aane ke waqt) daane bharne ke liye zaroori hai.",
+        "time": "2026-04-25 14:34:50.629359"
+      },
+      {
+        "user": "hindi me likho",
+        "bot": "\u090f\u0915 \u090f\u0915\u0921\u093c \u092e\u0942\u0902\u0917\u092b\u0932\u0940 (Bhuimung) \u0915\u0940 \u0916\u0947\u0924\u0940 \u0915\u0947 \u0932\u093f\u090f \u092e\u0941\u0916\u094d\u092f \u091c\u093e\u0928\u0915\u093e\u0930\u0940:\n\n**\u092c\u0940\u091c \u0915\u0940 \u092e\u093e\u0924\u094d\u0930\u093e (Seed Rate)**\n*   **\u0917\u0941\u091a\u094d\u091b\u0947 \u0935\u093e\u0932\u0940 \u0915\u093f\u0938\u094d\u092e (Bunch type):** 40\u201345 \u0915\u093f\u0932\u094b \u092a\u094d\u0930\u0924\u093f \u090f\u0915\u0921\u093c\u0964\n*   **\u092b\u0948\u0932\u0928\u0947 \u0935\u093e\u0932\u0940 \u0915\u093f\u0938\u094d\u092e (Spreading type):** 30\u201335 \u0915\u093f\u0932\u094b \u092a\u094d\u0930\u0924\u093f \u090f\u0915\u0921\u093c\u0964\n\n**\u092c\u0941\u0935\u093e\u0908 \u0915\u0940 \u0926\u0942\u0930\u0940 (Spacing)**\n*   **\u0917\u0941\u091a\u094d\u091b\u0947 \u0935\u093e\u0932\u0940:** 30 \u0938\u0947\u092e\u0940 (\u0915\u0924\u093e\u0930 \u0938\u0947 \u0915\u0924\u093e\u0930) x 10 \u0938\u0947\u092e\u0940 (\u092a\u094c\u0927\u0947 \u0938\u0947 \u092a\u094c\u0927\u093e)\u0964\n*   **\u092b\u0948\u0932\u0928\u0947 \u0935\u093e\u0932\u0940:** 45 \u0938\u0947\u092e\u0940 (\u0915\u0924\u093e\u0930 \u0938\u0947 \u0915\u0924\u093e\u0930) x 15 \u0938\u0947\u092e\u0940 (\u092a\u094c\u0927\u0947 \u0938\u0947 \u092a\u094c\u0927\u093e)\u0964\n\n**\u092c\u0940\u091c \u0909\u092a\u091a\u093e\u0930 (Seed Treatment)**\n*   **\u092b\u092b\u0942\u0902\u0926\u0928\u093e\u0936\u0915:** 2 \u0917\u094d\u0930\u093e\u092e \u0915\u093e\u0930\u094d\u092c\u0947\u0928\u094d\u0921\u093e\u091c\u093f\u092e \u092f\u093e 5 \u0917\u094d\u0930\u093e\u092e \u091f\u094d\u0930\u093e\u0907\u0915\u094b\u0921\u0930\u094d\u092e\u093e \u092a\u094d\u0930\u0924\u093f \u0915\u093f\u0932\u094b \u092c\u0940\u091c\u0964\n*   **\u0930\u093e\u0907\u091c\u094b\u092c\u093f\u092f\u092e:** 250 \u0917\u094d\u0930\u093e\u092e \u0930\u093e\u0907\u091c\u094b\u092c\u093f\u092f\u092e \u0915\u0932\u094d\u091a\u0930 10 \u0915\u093f\u0932\u094b \u092c\u0940\u091c \u0915\u0947 \u0932\u093f\u090f\u0964\n\n**\u0916\u093e\u0926 \u092a\u094d\u0930\u092c\u0902\u0927\u0928 (Fertilizer)**\n*   **\u0917\u094b\u092c\u0930 \u0916\u093e\u0926:** 8\u201310 \u091f\u094d\u0930\u093e\u0932\u0940 \u0905\u091a\u094d\u091b\u0940 \u0938\u0921\u093c\u0940 \u0939\u0941\u0908 \u0916\u093e\u0926\u0964\n*   **\u092c\u0941\u0935\u093e\u0908 \u0915\u0947 \u0938\u092e\u092f:** 80 \u0915\u093f\u0932\u094b \u0938\u093f\u0902\u0917\u0932 \u0938\u0941\u092a\u0930 \u092b\u093e\u0938\u094d\u092b\u0947\u091f (SSP) \u0914\u0930 20 \u0915\u093f\u0932\u094b \u092f\u0942\u0930\u093f\u092f\u093e\u0964\n*   **\u091c\u093f\u092a\u094d\u0938\u092e:** 200 \u0915\u093f\u0932\u094b \u092a\u094d\u0930\u0924\u093f \u090f\u0915\u0921\u093c (\u092b\u0942\u0932 \u0906\u0928\u0947 \u0915\u0947 \u0938\u092e\u092f) \u0926\u093e\u0928\u094b\u0902 \u0915\u0947 \u0905\u091a\u094d\u091b\u0947 \u092d\u0930\u093e\u0935 \u0915\u0947 \u0932\u093f\u090f\u0964\n\n**\u0938\u093f\u0902\u091a\u093e\u0908 (Irrigation)**\n*   \u091c\u0930\u0942\u0930\u0924 \u0915\u0947 \u0905\u0928\u0941\u0938\u093e\u0930 8-10 \u0926\u093f\u0928\u094b\u0902 \u0915\u0947 \u0905\u0902\u0924\u0930\u093e\u0932 \u092a\u0930 \u0938\u093f\u0902\u091a\u093e\u0908 \u0915\u0930\u0947\u0902\u0964\n*   \u092b\u0942\u0932 \u0906\u0924\u0947 \u0938\u092e\u092f \u0914\u0930 \u0926\u093e\u0928\u093e \u092c\u0928\u0924\u0947 \u0938\u092e\u092f \u0928\u092e\u0940 \u092c\u0928\u093e\u090f \u0930\u0916\u0928\u093e \u092c\u0939\u0941\u0924 \u091c\u0930\u0942\u0930\u0940 \u0939\u0948\u0964",
+        "time": "2026-04-25 14:36:57.028156"
+      }
+    ]
+  },
+  "7": {
+    "searches": [
+      {
+        "type": "price",
+        "crop": "tur",
+        "output": {
+          "min": 9000,
+          "max": 11500,
+          "modal": 10200
+        },
+        "time": "2026-04-25 17:01:45.840082"
+      },
+      {
+        "type": "details",
+        "input": {
+          "crop": "wheat"
+        },
+        "output": {
+          "name": "Wheat",
+          "description": "Wheat is a major cereal crop grown in cool seasons, requiring well-drained loamy soil and moderate temperatures between 10 to 25\u00c2\u00b0C. It is a staple food rich in carbohydrates and widely used for flour production. Adequate sunlight and timely irrigation are essential for optimal yield.Since the conditions of your farm is suitable for this particular crop to grow we suggest you to grow wheat.",
+          "crop_type": "Grain",
+          "temperature_range": [
+            10,
+            25
+          ],
+          "moisture_range": [
+            40,
+            60
+          ],
+          "climate": "Cool and dry",
+          "soil_type": "Loamy soil",
+          "water_needs": "Moderate",
+          "harvest_time": "4-5 months",
+          "season": "Rabi"
+        },
+        "time": "2026-04-25 17:04:22.066165"
+      },
+      {
+        "type": "forecast",
+        "input": {
+          "city": "shimla",
+          "days": 4
+        },
+        "output": {
+          "temp": 11.64,
+          "humidity": 82,
+          "weather": "Rain"
+        },
+        "time": "2026-04-25 17:05:19.247992"
+      },
+      {
+        "type": "forecast",
+        "input": {
+          "city": "shimla",
+          "days": 4
+        },
+        "output": {
+          "temp": 11.64,
+          "humidity": 82,
+          "weather": "Rain"
+        },
+        "time": "2026-04-25 17:05:21.601395"
+      },
+      {
+        "type": "forecast",
+        "input": {
+          "city": "nanded",
+          "days": 4
+        },
+        "output": {
+          "error": "City not found"
+        },
+        "time": "2026-04-25 17:05:32.830368"
+      }
+    ],
+    "chat": [
+      {
+        "user": "H",
+        "bot": "* Good day.\n* Ready to help with your crops, soil, or livestock.\n* What\u2019s on your mind regarding the farm?",
+        "time": "2026-04-25 17:12:31.268543"
+      },
+      {
+        "user": "Nanded me konsa fasal lagana chahiye abhi summer ke hisaab se",
+        "bot": "* **\u0917\u094d\u0930\u0940\u0937\u094d\u092e\u0915\u093e\u0932\u0940\u0928 \u092e\u0942\u0902\u0917 (Summer Green Gram):** \u0915\u092e \u0938\u092e\u092f \u092e\u0947\u0902 \u0924\u0948\u092f\u093e\u0930 \u0939\u094b\u0928\u0947 \u0935\u093e\u0932\u0940 \u0914\u0930 \u0915\u092e \u092a\u093e\u0928\u0940 \u0932\u0947\u0928\u0947 \u0935\u093e\u0932\u0940 \u092b\u0938\u0932\u0964\n* **\u092e\u0942\u0902\u0917\u092b\u0932\u0940 (Groundnut):** \u092f\u0926\u093f \u0938\u093f\u0902\u091a\u093e\u0908 \u0915\u0940 \u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0935\u094d\u092f\u0935\u0938\u094d\u0925\u093e \u0939\u094b, \u0924\u094b \u092f\u0939 \u0932\u093e\u092d\u0926\u093e\u092f\u0915 \u0939\u0948\u0964\n* **\u091a\u093e\u0930\u093e \u092b\u0938\u0932\u0947\u0902 (Fodder Crops):** \u092a\u0936\u0941\u0913\u0902 \u0915\u0947 \u0932\u093f\u090f \u092e\u0915\u094d\u0915\u093e, \u091c\u0935\u093e\u0930 \u092f\u093e \u092c\u093e\u091c\u0930\u093e \u0932\u0917\u093e\u0928\u093e \u0938\u0939\u0940 \u0930\u0939\u0947\u0917\u093e\u0964\n* **\u0938\u092c\u094d\u091c\u093f\u092f\u093e\u0902 (Vegetables):** \u092d\u093f\u0902\u0921\u0940, \u0917\u094d\u0935\u093e\u0930, \u0914\u0930 \u092c\u0947\u0932 \u0935\u093e\u0932\u0940 \u092b\u0938\u0932\u0947\u0902 (\u091c\u0948\u0938\u0947 \u0932\u094c\u0915\u0940, \u0915\u0930\u0947\u0932\u093e, \u0915\u0926\u094d\u0926\u0942)\u0964\n* **\u0924\u0930\u092c\u0942\u091c \u0914\u0930 \u0916\u0930\u092c\u0942\u091c (Watermelon & Muskmelon):** \u0917\u0930\u094d\u092e\u0940 \u0915\u0947 \u092e\u094c\u0938\u092e \u092e\u0947\u0902 \u092c\u093e\u091c\u093e\u0930 \u092e\u0947\u0902 \u0907\u0928\u0915\u0940 \u092e\u093e\u0902\u0917 \u0905\u0927\u093f\u0915 \u0930\u0939\u0924\u0940 \u0939\u0948\u0964\n* **\u0924\u093f\u0932 (Sesame):** \u0915\u092e \u092a\u093e\u0928\u0940 \u0935\u093e\u0932\u0940 \u0930\u0947\u0924\u0940\u0932\u0940 \u092f\u093e \u092e\u0927\u094d\u092f\u092e \u092e\u093f\u091f\u094d\u091f\u0940 \u0915\u0947 \u0932\u093f\u090f \u0909\u092a\u092f\u0941\u0915\u094d\u0924\u0964",
+        "time": "2026-04-25 17:13:34.332659"
+      },
+      {
+        "user": "Mere farm ki soil jo hai wo reddish color hai, to usme konsi fasle uga sakta hu mai?",
+        "bot": "*   **\u092e\u0942\u0902\u0917\u092b\u0932\u0940 (Groundnut):** \u0932\u093e\u0932 \u092e\u093f\u091f\u094d\u091f\u0940 (Red Soil) \u092d\u0941\u0930\u092d\u0941\u0930\u0940 \u0939\u094b\u0924\u0940 \u0939\u0948, \u091c\u094b \u092e\u0942\u0902\u0917\u092b\u0932\u0940 \u0915\u0947 \u0926\u093e\u0928\u094b\u0902 \u0915\u0947 \u0935\u093f\u0915\u093e\u0938 \u0915\u0947 \u0932\u093f\u090f \u0938\u092c\u0938\u0947 \u0905\u091a\u094d\u091b\u0940 \u092e\u093e\u0928\u0940 \u091c\u093e\u0924\u0940 \u0939\u0948\u0964\n*   **\u092c\u093e\u091c\u0930\u093e \u0914\u0930 \u091c\u094d\u0935\u093e\u0930 (Millets):** \u092f\u0939 \u092e\u093f\u091f\u094d\u091f\u0940 \u092a\u093e\u0928\u0940 \u0915\u094b \u0915\u092e \u0938\u094b\u0916\u0924\u0940 \u0939\u0948, \u0907\u0938\u0932\u093f\u090f \u0915\u092e \u092a\u093e\u0928\u0940 \u092e\u0947\u0902 \u092a\u0915\u0928\u0947 \u0935\u093e\u0932\u0947 \u092e\u094b\u091f\u0947 \u0905\u0928\u093e\u091c \u092f\u0939\u093e\u0901 \u0905\u091a\u094d\u091b\u0947 \u0939\u094b\u0924\u0947 \u0939\u0948\u0902\u0964\n*   **\u0938\u092c\u094d\u091c\u093f\u092f\u093e\u0902 (Vegetables):** \u091f\u092e\u093e\u091f\u0930, \u092e\u093f\u0930\u094d\u091a, \u0914\u0930 \u092c\u0948\u0902\u0917\u0928 \u0932\u093e\u0932 \u092e\u093f\u091f\u094d\u091f\u0940 \u092e\u0947\u0902 \u092c\u0939\u0941\u0924 \u0905\u091a\u094d\u091b\u0940 \u092a\u0948\u0926\u093e\u0935\u093e\u0930 \u0926\u0947\u0924\u0947 \u0939\u0948\u0902\u0964\n*   **\u0926\u0932\u0939\u0928 (Pulses):** \u092e\u0942\u0902\u0917, \u0909\u0921\u093c\u0926 \u0914\u0930 \u0905\u0930\u0939\u0930 (\u0924\u0942\u0930) \u0915\u0947 \u0932\u093f\u090f \u092f\u0939 \u092e\u093f\u091f\u094d\u091f\u0940 \u0909\u092a\u092f\u0941\u0915\u094d\u0924 \u0939\u0948\u0964\n*   **\u0924\u0930\u092c\u0942\u091c (Watermelon):** \u0930\u0947\u0924\u0940\u0932\u0940 \u0932\u093e\u0932 \u092e\u093f\u091f\u094d\u091f\u0940 \u092e\u0947\u0902 \u0924\u0930\u092c\u0942\u091c \u0915\u0940 \u091c\u0921\u093c\u0947\u0902 \u0905\u091a\u094d\u091b\u0947 \u0938\u0947 \u092b\u0948\u0932\u0924\u0940 \u0939\u0948\u0902 \u0914\u0930 \u092b\u0932 \u092e\u0940\u0920\u093e \u0939\u094b\u0924\u093e \u0939\u0948\u0964\n*   **\u0938\u0941\u091d\u093e\u0935:** \u0932\u093e\u0932 \u092e\u093f\u091f\u094d\u091f\u0940 \u092e\u0947\u0902 \u091c\u0948\u0935\u093f\u0915 \u0916\u093e\u0926 (Gobar khad) \u0915\u093e \u0905\u0927\u093f\u0915 \u092a\u094d\u0930\u092f\u094b\u0917 \u0915\u0930\u0947\u0902 \u0915\u094d\u092f\u094b\u0902\u0915\u093f \u0907\u0938\u092e\u0947\u0902 \u0928\u092e\u0940 \u0930\u094b\u0915\u0928\u0947 \u0915\u0940 \u0915\u094d\u0937\u092e\u0924\u093e \u0915\u092e \u0939\u094b\u0924\u0940 \u0939\u0948\u0964",
+        "time": "2026-04-25 17:15:18.249391"
+      }
+    ]
+  }
+}
