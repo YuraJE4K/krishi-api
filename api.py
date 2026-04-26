@@ -34,6 +34,63 @@ def register_routes(app):
         with open(path) as f:
             return json.load(f)
 
+    # ---------------- CROP REPORT ---------------- #
+    @app.route("/crop-report", methods=["POST"])
+    def crop_report():
+        try:
+            data = request.get_json()
+
+            city = data.get("city")
+            crop = data.get("crop")
+
+            if not city or not crop:
+                return jsonify({"error": "City and crop required"})
+
+            # 🌤 Weather
+            weather_data = get_weather(city)
+
+            if "error" in weather_data:
+                return jsonify({"error": weather_data["error"]})
+
+            temp = weather_data.get("temp", 0)
+            humidity = weather_data.get("humidity", 0)
+            weather = weather_data.get("weather", "clear")
+
+            # 🌾 Crop recommendations
+            recommendations = recommend_crop(temp, humidity, weather)
+
+            # 💰 Market prices (simple version)
+            try:
+                market = get_prices(crop, "maharashtra")  # fixed state
+            except:
+                market = []
+
+            # 🧠 Simple AI advice (no Gemini needed)
+            advice = []
+
+            if temp > 35:
+                advice.append("High temperature detected — ensure proper irrigation")
+            if humidity < 30:
+                advice.append("Low humidity — risk of dry soil, increase watering")
+            if humidity > 80:
+                advice.append("High humidity — risk of fungal diseases")
+
+            if crop.lower() in [r[0] for r in recommendations]:
+                advice.append(f"{crop} is suitable for current conditions")
+            else:
+                advice.append(f"{crop} may not be optimal in current weather")
+
+            return jsonify({
+                "weather": weather_data,
+                "recommendations": recommendations,
+                "market": market,
+                "advice": advice
+            })
+
+        except Exception as e:
+            print("CROP REPORT ERROR:", e)
+            return jsonify({"error": "Server error"})
+        
     # ---------------- WEATHER ---------------- #
     @app.route("/weather", methods=["GET"])
     def weather():
