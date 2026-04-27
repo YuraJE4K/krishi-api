@@ -233,7 +233,6 @@ def get_prices(commodity, state):
     params = {
         "api-key": PRICE_API,
         "format": "json",
-        "filters[commodity]": commodity,
         "filters[state]": state.title(),
         "limit": 10,
     }
