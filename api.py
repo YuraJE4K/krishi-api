@@ -410,11 +410,3 @@ Bot:
             print("ERROR:", e)
             return jsonify({"reply": "⚠️ Server error"}), 500
 
-    # ---------------- SCHEMES ---------------- #
-    @app.route("/scheme-data", methods=["GET"])
-    def get_schemes():
-        try:
-            schemes = load_json(SCHEME_PATH)
-            return jsonify(schemes)
-        except Exception as e:
-            return jsonify({"error": str(e)})
