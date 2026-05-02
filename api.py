@@ -33,8 +33,27 @@ def register_routes(app):
     def load_json(path):
         with open(path) as f:
             return json.load(f)
-
-   # ---------------- CROP REPORT (ADVANCED) ---------------- #
+    # ---------------- CIRCUIT CONTROL ---------------- #
+    device_state = {
+        "outputs": {
+            f"output{i}": "OFF" for i in range(1, 17)
+        }
+    }
+    
+    @app.route("/circuit", methods=["GET", "POST"])
+    def circuit():
+    
+        if request.method == "POST":
+            data = request.get_json()
+    
+            for key, value in data.items():
+                if key in device_state["outputs"] and value in ["ON", "OFF"]:
+                    device_state["outputs"][key] = value
+    
+            return jsonify({"status": "updated", "outputs": device_state["outputs"]})
+    
+        return jsonify(device_state)
+    # ---------------- CROP REPORT (ADVANCED) ---------------- #
     @app.route("/crop-report", methods=["POST"])
     def crop_report():
         try:
